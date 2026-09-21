@@ -1,0 +1,77 @@
+Database school_db:
+-------------------
+
+1. Create a database named school_db.
+2. Create a table named students_table inside the school_db database. The table must contain the following fields:
+    * student_id
+    * first_name
+    * last_name
+    * age
+    * grade
+    * city
+3. Insert the following rows into the students_table:
+    * 1, Ahmad, Ahmad, 17, A, Beirut
+    * 2, Sara, Khatib, 18, B, Tripoli
+    * 3, Hassan, Zein, 17, A, Sidon
+    * 4, Mariam, Ata, 19, C, Beirut
+    * 5, Khaled, Najjar, 16, B, Tyre
+    * 6, Reem, Salem, 18, A, Tripoli
+    * 7, Youssef, Hany, 17, C, NULL
+    * 8, Hiba, Zein, 20, B, Beirut
+    * 9, Fadi, Hashem, 16, A, Tyre
+    * 10, Layla, Hassan, 17, B, Tripoli
+
+4. Write SQL SELECT queries for the following tasks:
+    1) Select all students from students_table.
+    2) Select the first_name and city of all students.
+    3) Use comparison operators (=, !=, >, >=, <, <=)
+        * Select all students whose grade is equal to 'B'.
+        * Select all students whose city is not equal to 'Beirut'.
+        * Select all students whose age is greater than 17.
+        * Select all students whose age is greater than or equal to 18.
+        * Select all students whose student_id is less than 5.
+        * Select all students whose age is less than or equal to 16.
+    4) Use IS and IS NOT:
+        * Select all students whose city is NULL.
+        * Select all students whose city is not NULL.
+    
+    5) Select all students whose age is between 17 and 19.
+
+    6) Select all students whose age is greater than 17 AND whose grade is 'A'.
+
+    7) Select all students who live in Beirut OR Tripoli.
+
+5. Update operations:
+    1) Update the grade of the student with student_id = 4 to 'A'.
+    2) Update the city to 'Beirut' for all students whose current city is 'Tripoli'.
+
+6. Delete Operations:
+    1) Delete the student whose student_id is 10.
+    2) Delete all students whose age is less than 17.
+
+Database unviersity_db:
+----------------------
+
+7. Create a database called university_db.
+
+8. Create a table named students to store student information for a university. The table must contain the following columns:
+    * student_id – an integer PRIMARY KEY.
+    * full_name – a text field that must always have a value.
+    * email – a text field that must be unique.
+    * age – an integer that must be 18 or older.
+    * registration_date – stores the date when the student is registered.
+    * registration_time – stores the time when the student is registered.
+    * created_at – stores the exact date and time when the record is created.
+
+Apply the following rules:
+    * The student_id must be the PRIMARY KEY.
+    * The full_name must not be NULL.
+    * The email must be UNIQUE.
+    * The age must satisfy a CHECK condition.
+    * The registration_date should default to the current date.
+    * The registration_time should default to the current time.
+    * The created_at should default to the current date and time.
+
+9. Write SQL statements to insert 2 different students into the students table. Rules:
+    1. At least one insert statement should rely on DEFAULT values.
+    2. All constraints must be respected.
