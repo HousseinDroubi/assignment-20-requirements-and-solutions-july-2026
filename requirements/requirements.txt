@@ -25,15 +25,15 @@ Database school_db:
     1) Select all students from students_table.
     2) Select the first_name and city of all students.
     3) Use comparison operators (=, !=, >, >=, <, <=)
-        * Select all students whose grade is equal to 'B'.
-        * Select all students whose city is not equal to 'Beirut'.
-        * Select all students whose age is greater than 17.
-        * Select all students whose age is greater than or equal to 18.
-        * Select all students whose student_id is less than 5.
-        * Select all students whose age is less than or equal to 16.
+        a) Select all students whose grade is equal to 'B'.
+        b) Select all students whose city is not equal to 'Beirut'.
+        c) Select all students whose age is greater than 17.
+        d) Select all students whose age is greater than or equal to 18.
+        e) Select all students whose student_id is less than 5.
+        f) Select all students whose age is less than or equal to 16.
     4) Use IS and IS NOT:
-        * Select all students whose city is NULL.
-        * Select all students whose city is not NULL.
+        a) Select all students whose city is NULL.
+        b) Select all students whose city is not NULL.
     
     5) Select all students whose age is between 17 and 19.
 
